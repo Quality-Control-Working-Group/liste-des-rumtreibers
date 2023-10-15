@@ -12,6 +12,7 @@ jobs:
         uses: xu-cheng/latex-action@master
         with:
           root_file: liste-des-rumtreibers.tex
+          latexmk_use_xelatex: true
           
       - name: upload
         uses: actions/upload-artifact@v3
